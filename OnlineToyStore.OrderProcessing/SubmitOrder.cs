@@ -15,7 +15,7 @@ using OnlineToyStore.Core.Repositories;
 
 
 
-namespace OnlineToyStore.OrderProcessing
+namespace OnlineToyStore.Functions
 {
     public static class SubmitOrder
     {

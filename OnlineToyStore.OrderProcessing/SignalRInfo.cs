@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Microsoft.Azure.WebJobs.Extensions.SignalRService;
 
-namespace OnlineToyStore.OrderProcessing
+namespace OnlineToyStore.Functions
 {
     public static class SignalRInfo
     {

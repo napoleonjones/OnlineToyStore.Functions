@@ -6,7 +6,7 @@ using Microsoft.Extensions.Logging;
 using OnlineToyStore.Core.Models;
 using OnlineToyStore.Core.Repositories;
 
-namespace OnlineToyStore.OrderProcessing
+namespace OnlineToyStore.Functions
 {
     public static class OrderProcessing
     {
