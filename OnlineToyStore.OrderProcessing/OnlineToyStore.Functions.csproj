@@ -14,6 +14,7 @@
   <ItemGroup>
     <Reference Include="OnlineToyStore.Core">
       <HintPath>..\..\OnlineToyStore\OnlineToyStore.Core\obj\Debug\netstandard2.0\OnlineToyStore.Core.dll</HintPath>
+      <Private>true</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
