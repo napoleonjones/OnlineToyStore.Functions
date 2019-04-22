@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineToyStore.Functions", "OnlineToyStore.Functions\OnlineToyStore.Functions.csproj", "{D718C8E6-41A4-4AEB-852F-002AD0D84C1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineToyStore.Functions", "OnlineToyStore.Functions\OnlineToyStore.Functions.csproj", "{D718C8E6-41A4-4AEB-852F-002AD0D84C1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineToyStore.Core", "..\OnlineToyStore\OnlineToyStore.Core\OnlineToyStore.Core.csproj", "{67C9DA85-7FCB-4B76-9154-9216D412497E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D718C8E6-41A4-4AEB-852F-002AD0D84C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D718C8E6-41A4-4AEB-852F-002AD0D84C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D718C8E6-41A4-4AEB-852F-002AD0D84C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C9DA85-7FCB-4B76-9154-9216D412497E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C9DA85-7FCB-4B76-9154-9216D412497E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C9DA85-7FCB-4B76-9154-9216D412497E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C9DA85-7FCB-4B76-9154-9216D412497E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

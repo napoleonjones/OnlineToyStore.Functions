@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
@@ -12,8 +12,10 @@
     <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\OnlineToyStore\OnlineToyStore.Core\OnlineToyStore.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="OnlineToyStore.Core">
-      <HintPath>..\..\OnlineToyStore\OnlineToyStore.Core\obj\Debug\netstandard2.0\OnlineToyStore.Core.dll</HintPath>
       <Private>true</Private>
     </Reference>
   </ItemGroup>
