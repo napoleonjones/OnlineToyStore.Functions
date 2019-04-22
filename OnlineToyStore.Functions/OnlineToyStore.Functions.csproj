@@ -12,12 +12,9 @@
     <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\OnlineToyStore\OnlineToyStore.Core\OnlineToyStore.Core.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="OnlineToyStore.Core">
+    <ProjectReference Include="..\..\OnlineToyStore\OnlineToyStore.Core\OnlineToyStore.Core.csproj">
       <Private>true</Private>
-    </Reference>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
