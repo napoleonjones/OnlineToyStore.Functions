@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 using OnlineToyStore.Core.Models;
 using System.Collections.Generic;
 
-namespace OnlineToyStore.OrderProcessing
+namespace OnlineToyStore.Functions
 {
     public static class GetOrders
     {
